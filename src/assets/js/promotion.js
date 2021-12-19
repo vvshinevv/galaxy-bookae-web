@@ -92,7 +92,14 @@ jQuery(document).ready(function ($) {
             e.target.closest('.card_list_ly').classList.remove('on');
         });
     }
-
+    const lyVoteClose = document.querySelectorAll('.ly_vote_close');
+    for (let i = 0; i < lyVoteClose.length; i++) {
+        console.log("imhere");
+        lyVoteClose[i].addEventListener('click', (e) => {
+            e.preventDefault();
+            e.target.closest('.ly_vote').classList.remove('on');
+        });
+    }
     wow = new WOW({
         boxClass: 'wow', // default
         animateClass: 'animated', // default
