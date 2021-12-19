@@ -1,20 +1,22 @@
 .scroll__section3 {
   height: 893px;
-  background: url("../img/bg_section3_line.png") no-repeat center 2500px, url("../img/bg_section_5.jpg") no-repeat center 0;
-  background-size: 2100px auto, cover;
+  background: #000 url("../img/bg_section3_line.png") no-repeat center 3149px;
+  background-size: 1920px auto;
 }
 
 .scroll__section3 .bg_planet {
+  width: 1920px;
   position: absolute;
-  top: 551px;
+  top: 0;
   left: 50%;
+  z-index: 10;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .scroll__section3 .section3__box1 {
   position: absolute;
-  top: 110px;
+  top: 1389px;
   left: 50%;
   width: 861px;
   height: 456px;
@@ -33,65 +35,69 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 24px;
   color: #fff;
+  letter-spacing: 1.2px;
   text-align: center;
-  line-height: 45px;
+  line-height: 55px;
 }
 
 .scroll__section3 .section3__box2 {
   position: absolute;
-  top: 530px;
+  top: 320px;
   left: 50%;
-  width: 1300px;
-  height: 456px;
-  margin-left: -650px;
+  width: 1920px;
+  height: 500px;
+  margin-left: -960px;
 }
 
 .scroll__section3 .section3__box2 .planet1 {
   position: absolute;
+  top: 260px;
   left: 50%;
-  margin-left: -720px;
+  margin-left: -520px;
   -webkit-animation: float 2s infinite linear;
   animation: float 2s infinite linear;
+  z-index: 10;
 }
 
 .scroll__section3 .section3__box2 .planet2 {
   position: absolute;
-  top: 210px;
+  top: 260px;
   left: 50%;
-  margin-left: 90px;
+  margin-left: 20px;
   -webkit-animation: float-reverse 2s infinite linear;
   animation: float-reverse 2s infinite linear;
 }
 
 .scroll__section3 .section3__box3 {
   position: absolute;
-  top: 1610px;
+  top: 1998px;
   left: 50%;
-  width: 414px;
-  height: 114px;
-  margin-left: -207px;
+  width: 500px;
+  height: 140px;
+  margin-left: -250px;
 }
 
 .scroll__section3 .section3__box4 {
   position: absolute;
-  top: 1750px;
+  top: 2170px;
   left: 50%;
-  width: 500px;
+  width: 600px;
   height: 40px;
-  margin-left: -250px;
+  margin-left: -300px;
   font-size: 24px;
   font-weight: bold;
   color: #fff;
   text-align: center;
+  letter-spacing: 1.2px;
 }
 
 .scroll__section3 .section3__box5 {
   position: absolute;
-  top: 1898px;
+  top: 2368px;
   left: 50%;
-  width: 550px;
+  width: 600px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -300px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -100,11 +106,11 @@
 
 .scroll__section3 .section3__box6 {
   position: absolute;
-  top: 1946px;
+  top: 2416px;
   left: 50%;
-  width: 550px;
+  width: 600px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -300px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -113,11 +119,11 @@
 
 .scroll__section3 .section3__box7 {
   position: absolute;
-  top: 1994px;
+  top: 2464px;
   left: 50%;
-  width: 550px;
+  width: 600px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -300px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -126,11 +132,11 @@
 
 .scroll__section3 .section3__box8 {
   position: absolute;
-  top: 2042px;
+  top: 2512px;
   left: 50%;
-  width: 550px;
+  width: 600px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -300px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -139,11 +145,11 @@
 
 .scroll__section3 .section3__box9 {
   position: absolute;
-  top: 2090px;
+  top: 2560px;
   left: 50%;
-  width: 550px;
+  width: 700px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -350px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -152,11 +158,11 @@
 
 .scroll__section3 .section3__box10 {
   position: absolute;
-  top: 2138px;
+  top: 2608px;
   left: 50%;
-  width: 550px;
+  width: 600px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -300px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -165,11 +171,11 @@
 
 .scroll__section3 .section3__box11 {
   position: absolute;
-  top: 2186px;
+  top: 2656px;
   left: 50%;
-  width: 550px;
+  width: 600px;
   height: 24px;
-  margin-left: -275px;
+  margin-left: -300px;
   font-size: 24px;
   color: #fff;
   line-height: 1;
@@ -197,8 +203,14 @@
   color: #fff;
 }
 
+.scroll__section3 .section3__box2_1 a {
+  display: block;
+  width: 350px;
+  margin: 60px auto 0;
+}
+
 .map {
-  margin-top: 100px;
+  margin-top: 135px;
   height: 610px;
 }
 
@@ -319,30 +331,116 @@
   background-image: url("../img/nanugu_on.png");
 }
 
+.map_card {
+  width: 1190px;
+  margin: 0 auto;
+}
+
 .card_img {
+  display: none;
   margin: 200px auto 0;
-  width: 1070px;
+  width: 1000px;
   height: 950px;
+}
+
+.v1.map_card .img1 {
+  display: block;
+}
+
+.v2.map_card .img2 {
+  display: block;
+}
+
+.v3.map_card .img3 {
+  display: block;
+}
+
+.v4.map_card .img4 {
+  display: block;
+}
+
+.v5.map_card .img5 {
+  display: block;
 }
 
 .card_img_title {
-  height: 143px;
+  height: 80px;
   background: url("../img/voorgu.png") no-repeat center 0;
 }
 
+.img2 .card_img_title {
+  background: url("../img/utgigu_title.png") no-repeat center 0;
+}
+
+.img3 .card_img_title {
+  background: url("../img/sagupalgu_title.png") no-repeat center 0;
+}
+
+.img4 .card_img_title {
+  background: url("../img/badalagu_title.png") no-repeat center 0;
+}
+
+.img5 .card_img_title {
+  background: url("../img/nanugu_title.png") no-repeat center 0;
+}
+
 .card_img_person {
-  margin: -160px;
-  height: 950px;
+  margin-top: -80px;
+  height: 1000px;
   background: url("../img/voorgu_leader.png") no-repeat center 0;
 }
 
+.img2 .card_img_person {
+  background: url("../img/utgigu_leader.png") no-repeat center 0;
+}
+
+.img3 .card_img_person {
+  background: url("../img/sagupalgu_leader.png") no-repeat center 0;
+}
+
+.img4 .card_img_person {
+  background: url("../img/badalagu_leader.png") no-repeat center 0;
+}
+
+.img5 .card_img_person {
+  background: url("../img/nanugu_leader.png") no-repeat center 0;
+}
+
 .card_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 190px;
+  display: none;
+}
+
+.v1 .card_list.list1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.v2 .card_list.list2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.v3 .card_list.list3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.v4 .card_list.list4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.v5 .card_list.list5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .card_list_item {
