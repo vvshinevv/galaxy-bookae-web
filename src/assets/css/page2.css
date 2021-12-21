@@ -332,7 +332,7 @@
 }
 
 .map_card {
-  width: 1190px;
+  width: 1142px;
   margin: 0 auto;
 }
 
@@ -365,7 +365,7 @@
 
 .card_img_title {
   height: 80px;
-  background: url("../img/voorgu.png") no-repeat center 0;
+  background: url("../img/voorgu_title.png") no-repeat center 0;
 }
 
 .img2 .card_img_title {
