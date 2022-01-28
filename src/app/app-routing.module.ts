@@ -5,7 +5,7 @@ import { PromotionLayoutComponent } from './pages/promotion/layout/promotion-lay
 
 const routes: Routes = [
   {
-    path: '', component: LayoutComponent,
+    path: '', component: PromotionLayoutComponent,
   }
 
 ];
