@@ -134,14 +134,15 @@ body {
       left: -208px;
       width: 347px;
       height: 432px;
-      background: url("../img/bg_section_2_card1.png") no-repeat;
-      background-size: 347px 432px; }
+      /* background: url("../img/bg_section_2_card1.png") no-repeat; */
+      background-size: 347px 432px; 
+    }
     .scroll__section2 .section2__box1::after {
       top: 14px;
       right: -248px;
       width: 415px;
       height: 463px;
-      background: url("../img/bg_section_2_card2.png") no-repeat;
+      /* background: url("../img/bg_section_2_card2.png") no-repeat; */
       background-size: 415px 463px; }
 
 .scroll__section5 {
